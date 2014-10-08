@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap>
   <siteMapNode title="Root" description="(do not display)" url="~/">
-    <siteMapNode title="Home" description="Home" url="~/Home.aspx" />
+    <siteMapNode title="Home" description="Home" url="~/MemberService/Default.aspx" />
     <siteMapNode title="Products" description="Our products"
         url="~/Products.aspx">
       <siteMapNode title="Hardware" description="Hardware choices"
@@ -16,8 +16,17 @@
       <siteMapNode title="Consulting" description="Consulting services"
           url="~/Consulting.aspx" />
       <siteMapNode title="Support" description="Supports plans"
-          url="~/Support.aspx" />
-    </siteMapNode>
+          url="~/Support.aspx" >
+        <siteMapNode title="SupportTickets" description="SupportTickets"
+          url="~/MemberService/SupportTickets.aspx" />
+      </siteMapNode>
+        <siteMapNode title="MemberServices"  description="MemberServices" >
+          <siteMapNode title="Downloads" description="Downloads"
+          url="~/MemberService/ProductDownload.aspx" />
+          <siteMapNode title="RegisteredProducts" description="RegisteredProducts"
+          url="~/MemberService/RegisteredProducts.aspx" />
+        </siteMapNode>
+      </siteMapNode>
     <siteMapNode title="About" description="About" url="~/About.aspx" />
   </siteMapNode>
 </siteMap>
